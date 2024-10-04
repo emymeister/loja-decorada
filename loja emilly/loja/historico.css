@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(161, 161, 250);
+    color: white;
+}
+h2 {
+    font-size: 2.5em; /* Tamanho maior para o título */
+    margin: 10px 0;
+}
+
+header {
+    background-color: rgb(91, 91, 250);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+nav {
+    background: rgb(28, 28, 248);
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    transition: background 0.3s;
+}
+
+main {
+    width: 90%;
+    max-width: 800px;
+}
+
+.filter-section {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+.sales-history {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid rgb(91, 91, 250);
+    text-align: left;
+    color:#333;
+}
+
+th {
+    background-color: rgb(91, 91, 250);
+    color: #333;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
